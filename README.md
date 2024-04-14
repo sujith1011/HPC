@@ -46,7 +46,7 @@ int main() {
 }
 ```
 - The main function of the program.
-- It reads input from a file, performs LZ77 compression sequentially and in parallel with different numbers of threads, and records the compression time and size of the compressed data in output files.
+- It reads input from a file, performs LZ77 compression sequentially and in parallel with different numbers of threads and records the compression time and size of the compressed data in output files.
 
 ### Explanation
 - The main loop in the `main` function iterates 10 times, each time compressing the input string sequentially and in parallel with different numbers of threads.
