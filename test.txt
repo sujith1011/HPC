@@ -1,0 +1,3 @@
+Definitions: for 'p' processing elements, 
+speed up = (Running time of your program in 1 processing element)/(Running time of your program in p processing elements) 
+Parallel Efficiency = (Speed up/p) x 100% 
