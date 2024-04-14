@@ -52,3 +52,8 @@ int main() {
 - The main loop in the `main` function iterates 10 times, each time compressing the input string sequentially and in parallel with different numbers of threads.
 - Performance metrics like compression time and size of the compressed data are recorded in output files.
 - OpenMP is utilized to parallelize the compression process, and the number of threads used is varied from 1 to 16.
+
+### How to run
+```
+g++ -std=c++11 -fopenmp lz77_compress.cpp -o lz77_compress
+```
